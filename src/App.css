@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  border: 1px solid cyan;
+  border-radius: 8px;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
